@@ -43,3 +43,16 @@
 // val5[0] = "bird";
 // val5.push("monkey");
 // console.log(val5);
+
+/**
+ * テンプレート文字列
+ */
+// const name = "さだ";
+// const age = 36;
+// 「私の名前はさだです。年齢は36歳です。」
+// const message1 = "私の名前は" + name + "です。年齢は" + 36 + "歳です。('+'による文字列結合）";
+// console.log(message1);
+
+//　テンプレート文字列を用いた方法
+// const message2 = `私の名前は${name}です。年齢は${age}歳です。(テンプレート文字列による文字列結合)`;
+// console.log(message2);
