@@ -56,3 +56,25 @@
 //　テンプレート文字列を用いた方法
 // const message2 = `私の名前は${name}です。年齢は${age}歳です。(テンプレート文字列による文字列結合)`;
 // console.log(message2);
+
+/**
+ * アロー関数
+ */
+// 従来の関数
+// function func1(str) {
+//  return str;
+// }
+// function func1(str) {
+//   return str;
+// }
+// console.log(func1("func1です"));
+
+// アロー関数
+// const func2 = (str) => {
+//   return str;
+// };
+// console.log(func2("func2です"));
+
+// const func3 = (num1, num2) => num1 + num2;
+
+// console.log(func3(10, 20));
